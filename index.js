@@ -9,3 +9,9 @@ function printVol(height, radius) {
   console.log(`The volume is ${result}`)
 }
 printVol(7, 10);
+
+function getLength(str) {
+  return str.length;
+}
+
+console.log(getLength("Hello"))
