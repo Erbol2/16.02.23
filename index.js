@@ -35,3 +35,10 @@ function getRoot(a) {
   return Math.sqrt();
 }
 console.log(Math.sqrt(81));
+
+function getPerimetr(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
+console.log(getPerimetr(2, 5, 7, 3, 6));
+
+
