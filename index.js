@@ -26,3 +26,7 @@ function oddOrEven(a) {
 }
 oddOrEven(8);
 
+function getSquareOfTheNum(a) {
+  return a ** 2;
+}
+console.log(getSquareOfTheNum(7));
