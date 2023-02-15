@@ -30,3 +30,8 @@ function getSquareOfTheNum(a) {
   return a ** 2;
 }
 console.log(getSquareOfTheNum(7));
+
+function getRoot(a) {
+  return Math.sqrt();
+}
+console.log(Math.sqrt(81));
