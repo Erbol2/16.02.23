@@ -15,3 +15,14 @@ function getLength(str) {
 }
 
 console.log(getLength("Hello"))
+
+function oddOrEven(a) {
+  if (a % 2 === 0) {
+    console.log(`${a} is even`);
+  }
+  else {
+    console.log(`${a} is odd`);
+  }
+}
+oddOrEven(8);
+
