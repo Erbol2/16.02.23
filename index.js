@@ -72,16 +72,26 @@ for (let i = 0; i <= 20; i++) {
   }
 }
 for (let i = 0; i <= 15; i++) {
-  if (i % 2 != 0){
+  if (i % 2 != 0) {
     console.log(i)
   }
- }
+}
 
- let arr = ["my", "name", "is"];
- arr.unshift("world");
- arr.unshift("Hello");
- arr.push("Erbol");
- arr.push("what is");
- arr.push("your name?")
+let arr = ["my", "name", "is"];
+arr.unshift("world");
+arr.unshift("Hello");
+arr.push("Erbol");
+arr.push("what is");
+arr.push("your name?")
 
- console.log(arr)
+console.log(arr)
+
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let even = 0;
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
+    even = even + nums[i];
+    console.log(even);
+  }
+
+}
