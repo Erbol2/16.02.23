@@ -109,5 +109,11 @@ console.log(numbers);
 let names = ["Erjan", "Ermek", "Erbol"];
 for (let i = 0; i < names.length; i++) {
   console.log(`Hello, ${names[i]}`);
-  
+
+}
+
+let number = [2, 3, 4, 5];
+for (let i = 0; i < number.length; i++) {
+  console.log(number[i] ** 2);
+
 }
