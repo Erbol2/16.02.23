@@ -101,3 +101,8 @@ let str2 = ["to", "eat"];
 
 str = str1.concat(str2);
 console.log(str);
+
+let numbers = ["one", "two", "three"];
+numbers.reverse();
+console.log(numbers);
+
