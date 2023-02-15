@@ -115,5 +115,14 @@ for (let i = 0; i < names.length; i++) {
 let number = [2, 3, 4, 5];
 for (let i = 0; i < number.length; i++) {
   console.log(number[i] ** 2);
+}
 
+let animals = ["cat", "dog", "snake"];
+for (let i = 0; i < animals.length; i++) {
+  if (animals[i] === animals[i]) {
+    console.log(true);
+  }
+  else {
+    console.log(false);
+  }
 }
