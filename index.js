@@ -93,5 +93,11 @@ for (let i = 0; i < nums.length; i++) {
     even = even + nums[i];
     console.log(even);
   }
-
 }
+
+let str = [];
+let str1 = ["I", "like"];
+let str2 = ["to", "eat"];
+
+str = str1.concat(str2);
+console.log(str);
