@@ -55,4 +55,10 @@ for (let i = 8; i > 0; i--) {
   n = n * i;
 }
 
+for (let i = 0; i <= 10; i++) {
+  let result = i ** 2;
+  console.log(result)
+}
+
+
 
