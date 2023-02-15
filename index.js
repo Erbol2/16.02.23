@@ -49,4 +49,10 @@ for (let i = 0; i <= 33; i++) {
 }
 
 
+let n = 1;
+for (let i = 8; i > 0; i--) {
+  console.log(n);
+  n = n * i;
+}
+
 
