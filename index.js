@@ -42,3 +42,11 @@ function getPerimetr(a, b, c, d, e) {
 console.log(getPerimetr(2, 5, 7, 3, 6));
 
 
+for (let i = 0; i <= 33; i++) {
+  if (i % 3 === 0) {
+    console.log(i);
+  }
+}
+
+
+
