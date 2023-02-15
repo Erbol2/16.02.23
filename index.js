@@ -75,6 +75,13 @@ for (let i = 0; i <= 15; i++) {
   if (i % 2 != 0){
     console.log(i)
   }
-  
  }
 
+ let arr = ["my", "name", "is"];
+ arr.unshift("world");
+ arr.unshift("Hello");
+ arr.push("Erbol");
+ arr.push("what is");
+ arr.push("your name?")
+
+ console.log(arr)
