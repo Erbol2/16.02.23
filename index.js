@@ -106,3 +106,8 @@ let numbers = ["one", "two", "three"];
 numbers.reverse();
 console.log(numbers);
 
+let names = ["Erjan", "Ermek", "Erbol"];
+for (let i = 0; i < names.length; i++) {
+  console.log(`Hello, ${names[i]}`);
+  
+}
